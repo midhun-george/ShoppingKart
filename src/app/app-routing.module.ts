@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './Components/login/login.component';
-import { TaskItemComponent } from './Components/task-item/task-item.component';
-import { TaskListComponent } from './Components/task-list/task-list.component';
 import { AboutComponent } from './Components/about/about.component';
 
 import { HeadermenuComponent } from './Components/header-menu/header-menu.component';
@@ -20,7 +18,6 @@ import { CheckoutnewComponent } from './Components/checkoutnew/checkoutnew.compo
 const routes: Routes = [
 {path:'', component:LoginComponent, canActivate:[LoginGuard]},   
 {path:"login", component: LoginComponent, canActivate:[LoginGuard]},
-{path:"tasklist", component: TaskListComponent, canActivate:[AuthGuard]},
 {path:"header", component: HeadermenuComponent, canActivate:[AuthGuard]},
 {path:"shopping", component: ShoppingListComponent, canActivate:[AuthGuard]},
 {path:"user", component: UsersListComponent, canActivate:[AuthGuard, RoleGuard]},

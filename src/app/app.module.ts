@@ -35,15 +35,15 @@ import { ToastrModule } from 'ngx-toastr';
 import { ToastComponent } from './Components/toast/toast.component';
 import { AboutComponent } from './Components/about/about.component';
 import { AddProductComponent } from './Components/add-product/add-product.component';
-import { AddTasksComponent } from './Components/add-tasks/add-tasks.component';
+
 import { ButtonComponent } from './Components/button/button.component';
 import { DialogComponent } from './Components/dialog/dialog.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { HeadermenuComponent } from './Components/header-menu/header-menu.component';
 import { ProductComponent, ProductDialogComponent } from './Components/product/product.component';
-import { TaskItemComponent } from './Components/task-item/task-item.component';
-import { TaskListComponent } from './Components/task-list/task-list.component';
+
+
 
 import { HttpClientModule } from '@angular/common/http';
 import { AddProductDialogComponent } from './Components/add-product-dialog/add-product-dialog.component';
@@ -75,15 +75,14 @@ import { ContactComponent } from './Components/contact/contact.component';
     ToastComponent,
     AboutComponent,
     AddProductComponent,
-    AddTasksComponent,
+    
     ButtonComponent,
     DialogComponent,
     FooterComponent,
     HeaderComponent,
     HeadermenuComponent,
     ProductComponent,ProductDialogComponent,
-    TaskItemComponent,
-    TaskListComponent,
+    
     AddProductDialogComponent,
     UsersListComponent,
     NavComponent,
