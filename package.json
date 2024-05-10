@@ -23,6 +23,7 @@
         "@angular/platform-browser-dynamic": "^14.1.0",
         "@angular/router": "^14.1.0",
         "angular-material": "^1.2.5",
+        "json-server": "^1.0.0-alpha.23",
         "ngx-pagination": "^6.0.2",
         "ngx-toastr": "^15.0.0",
         "rxjs": "~7.5.0",
