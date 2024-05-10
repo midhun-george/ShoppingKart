@@ -282,7 +282,8 @@ table {
 }
 
 .banner-style .mat-mini-fab.mat-accent {
-    background-color: #607d8b;
+    background-color: #3f51b5;
+    margin-right: 5px;
 }
 
 header {
