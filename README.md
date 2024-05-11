@@ -1,5 +1,12 @@
 # MatTestApp
 
+
+# midhus
+Make sure script section of package.json contains
+"server": "json-server --watch db.json --port 5001"
+run server with cli -  npm run server
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
 ## Development server
